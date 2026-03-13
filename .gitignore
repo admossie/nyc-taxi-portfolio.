@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Large raw data files
+data/raw/
+notebooks/data/raw/
+*.parquet
+
+# Trained artifacts and generated outputs
+outputs/models/*.joblib
+outputs/models/*.pkl
+outputs/models/*metadata*.json
+outputs/models/test_predictions.csv
+
+# Streamlit/runtime artifacts
+.streamlit/

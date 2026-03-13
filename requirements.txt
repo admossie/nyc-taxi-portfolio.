@@ -1,0 +1,13 @@
+pandas
+requests
+pyarrow
+scikit-learn
+matplotlib
+plotly
+joblib
+streamlit
+xgboost
+lightgbm
+shap
+# optional
+# geopandas
